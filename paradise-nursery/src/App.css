@@ -1,0 +1,134 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f7faf7;
+}
+
+/* Bootstrap-like Professional Navbar */
+
+.navbar {
+  width: 100%;
+  background: #ffffff;
+  padding: 16px 60px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+  align-items: center;
+  border-bottom: 1px solid #dee2e6;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.navbar a {
+  text-decoration: none !important;
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  color: #212529;
+  letter-spacing: 0.3px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #495057;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 0;
+  transition: 0.3s ease;
+  position: relative;
+}
+
+.nav-links a:hover {
+  color: #198754;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: #198754;
+  left: 0;
+  bottom: -4px;
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+/* Landing Page */
+
+.landing-page {
+  height: calc(100vh - 90px);
+  background-image: url("https://images.unsplash.com/photo-1466692476868-aef1dfb1e735");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Dark Overlay */
+
+.overlay {
+  background: rgba(0, 0, 0, 0.55);
+  padding: 60px;
+  border-radius: 16px;
+  text-align: center;
+  color: white;
+  width: 90%;
+  max-width: 700px;
+  backdrop-filter: blur(4px);
+}
+
+.overlay h1 {
+  color: #fff;
+  font-size: 52px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.overlay p {
+  font-size: 20px;
+  margin-bottom: 35px;
+  line-height: 1.6;
+}
+
+/* Button */
+
+.get-started-btn {
+  background: #2f8f46;
+  color: white;
+  border: none;
+  padding: 16px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.get-started-btn:hover {
+  background: #246d35;
+  transform: translateY(-2px);
+}
