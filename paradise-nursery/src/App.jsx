@@ -7,7 +7,7 @@ import './App.css'
 
 function Home() {
   return (
-    <div className="landing-page">
+    <div className="background-image">
       <div className="overlay">
         <h1>Paradise Nursery</h1>
         <p>Bring Nature Home</p>

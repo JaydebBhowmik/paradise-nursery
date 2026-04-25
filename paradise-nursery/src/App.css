@@ -76,9 +76,9 @@ body {
   width: 100%;
 }
 
-/* Landing Page */
+/* background-image */
 
-.landing-page {
+.background-image {
   height: calc(100vh - 90px);
   background-image: url("https://images.unsplash.com/photo-1466692476868-aef1dfb1e735");
   background-size: cover;
